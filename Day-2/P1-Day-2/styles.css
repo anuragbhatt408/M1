@@ -1,0 +1,80 @@
+h1, h2, p {
+    text-align: center;
+}
+h1, h2{
+    font-family: Impact, serif;
+}
+header p{
+    font-style: italic;
+}
+h1{
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 30px;
+}
+hr{
+    border-color: brown;
+    height: 1px;
+}
+body{
+    /* background-color: burlywood; */
+    background-image: url("./beans.jpg");
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.menu{
+    background-color: burlywood;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.flavor, .dessert{
+    text-align: left;
+    width:75%;
+}
+
+.food-pic{
+    display: block;
+    margin-left: 45%;
+    text-align: center;
+}
+
+.price{
+    text-align: right;
+    width:23.3%;
+}
+
+.item p{
+    display: inline-block;
+    margin: 5px 0px;
+    font-size: 18px;
+}
+.bottom-line{
+    margin-top: 25px;
+}
+
+/* FOOTER */
+footer{
+    font-size: 14px;
+}
+
+footer a:visited{
+    color: black;
+}
+
+footer a:hover{
+    color:brown;
+}
+footer a:active{
+    color:white;
+}
+
+.address{
+    margin-bottom: 5px;
+}
